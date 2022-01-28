@@ -74,13 +74,6 @@ section, footer{
     margin: 0 auto;
 }
 
-/* Link Styles */
-
-a {
-    text-decoration: none;
-    color: #4F4f4f;
-}
-
 /* Nav Styles */
 
 .topNav {
@@ -90,12 +83,17 @@ a {
     align-items: center;
 }
 
-.links {
+.topLinks {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
     text-align: center;
     font-size: 30px;
+}
+
+.topLinks a {
+    text-decoration: none;
+    color: #4F4f4f;
 }
 
 .logo {
@@ -132,6 +130,7 @@ header {
 /*Middle Section Styles*/
 .middle-content {
     margin-bottom: 4%;
+    border-bottom: 2px solid #ff4b00;
 }
 
 .middle-content h2 {
@@ -141,15 +140,19 @@ header {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .middle-content .boxes .box {
     margin: 4% 0;
-    color: white;
+    color: rgba(255,255,255,0.8);
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    font-size: 30px;
 }
 
 /* Box Background Styles */
@@ -212,6 +215,19 @@ header {
 footer {
     width: 100%;
     background-color: #ff4b00;
+}
+
+.footerLinks {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+}
+
+.footerLinks a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
 }
 
 /*About Page Styles*/
