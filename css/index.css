@@ -102,7 +102,7 @@ section, footer{
 
 /* Header Styles */
 
-header {
+.indexHeader {
     height: 40vh;
     background-image: url("../img/jumbo.jpg");
     background-size: 80%;
@@ -232,6 +232,15 @@ footer {
 
 /*About Page Styles*/
 
+.aboutHeader {
+    height: 40vh;
+    background-image: url("../img/jumbo-about.png");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 /*Responsive Styles*/
 
@@ -255,7 +264,7 @@ footer {
         margin-top: 2%;
     }
 
-    header {
+    .indexHeader {
         height: 10vh;
         background-position: center;
     }
