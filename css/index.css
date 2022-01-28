@@ -259,6 +259,10 @@ footer {
     margin-bottom: 2%;
 }
 
+.middle-text-container a {
+    text-decoration: none;
+}
+
 .middle-text-container {
     border-bottom: 2px solid #ff4b00;
     width: 35%;
@@ -309,6 +313,10 @@ footer {
         text-align: left;
     }
 
+    .middle-content {
+        text-align: center;
+    }
+
     .middle-content .boxes .box {
         height: 150px;
         width: 150px;
@@ -339,5 +347,31 @@ footer {
 
     .footerLinks a {
         margin: 1%;
+    }
+
+    .aboutHeader {
+        height: 10vh;
+        background-position: center;
+    }
+
+    .about-page {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .middle-content-about {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .middle-text-container {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .middle-text-container p {
+        text-align: left;
     }
 }
