@@ -89,12 +89,22 @@ a {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px;
 }
 
 .logo {
     width: 15%;
+}
+
+/* Header Styles */
+
+header {
+    height: 40vh;
+    background-image: url("../img/jumbo.jpg");
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 /*Top Section Styles*/
