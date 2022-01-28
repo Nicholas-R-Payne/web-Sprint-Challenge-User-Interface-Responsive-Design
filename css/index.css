@@ -107,7 +107,7 @@ header {
     background-image: url("../img/jumbo.jpg");
     background-size: 80%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
 }
 
 /*Top Section Styles*/
@@ -234,3 +234,42 @@ footer {
 
 
 /*Responsive Styles*/
+
+@media(max-width: 500px) {
+    .topNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .topLinks {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 2%;
+    }
+
+    header {
+        height: 10vh;
+        background-position: center;
+    }
+
+    .top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-content .text-container {
+        width: 55%; 
+    }
+
+    .top-content .text-container p {
+        text-align: left;
+    }
+}
